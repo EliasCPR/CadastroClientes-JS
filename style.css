@@ -1,0 +1,84 @@
+:root{
+    --bgColor: #000000CC;
+    --font: calibri, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#titulo{
+    width: 100vw;
+    height: 70px;
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--font);
+    padding-top: 20px;
+
+    color: white;
+    background-color: var(--bgColor);
+}
+
+#cadastrar{
+    width: 160px;
+    height: 40px;
+
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500;
+    font-family: var(--font);
+    
+    border-radius: 5px 5px 5px 5px;
+    padding-top: 8px;
+    margin-left: 80px;
+    margin-top: 80px;
+
+    background-color: #1ee91eCC;
+}
+
+#guia{
+    display: flex;
+    width: 1200px;
+    height: 50px;
+
+    color: white;
+    font-size: 1.1em;
+    font-family: var(--font);
+    
+    gap: 170px;
+    padding-left: 20px;
+    padding-top: 13px;
+    margin-left: 80px;
+    margin-top: 50px;
+
+    background-color: var(--bgColor);
+}
+
+#dados{
+    display: flex;
+    width: 1200px;
+    height: 50px;
+
+
+    font-size: 1em;
+    font-family: var(--font);
+    
+    gap: 107px;
+    padding-left: 20px;
+    padding-top: 13px;
+    margin-left: 80px;
+
+    background-color: #e9e6e6;
+}
+
+#dados input{
+    width: 110px;
+    height: inherit;
+    border: none;
+    
+    background-color: #e9e6e6;
+}
+
